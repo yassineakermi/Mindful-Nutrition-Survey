@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Mindful Nutrition</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+  <!-- External Css -->
+  <link rel="stylesheet" href="assets/css/line-awesome.min.css">
+
+  <!-- Custom Css -->
+  <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/covid.css">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="icon" sizes="192x192"
+    href="https://static.wixstatic.com/ficons/18a7ae_0aaffaf99d4341d6b771ee4b863d1bad%7Emv2.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="https://static.wixstatic.com/ficons/18a7ae_0aaffaf99d4341d6b771ee4b863d1bad%7Emv2.ico"
+    type="image/x-icon">
+  <link rel="apple-touch-icon"
+    href="https://static.wixstatic.com/ficons/18a7ae_0aaffaf99d4341d6b771ee4b863d1bad%7Emv2.ico" type="image/x-icon">
+
+</head>
+
+<body>
+
+  <div class="ugf-covid covid-bg">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <nav class="navbar navbar-expand-md anfra-nav" style="padding-left: 60px; padding-right: 60px;">
+            <a class="navbar-brand" href="../index.html">
+              <img src="assets/images/Horizontal Layout 1.webp" class="main-logo" alt="">
+              <img src="assets/images/Horizontal Layout 1.webp" class="logo-2" alt="">
+            </a>
+
+            <div class="collapse navbar-collapse justify-end" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link nav-button" href="https://www.mindful-nutrition-counseling.com/">Visit Our
+                    Website</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="pt10">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-8 col-lg-8 col-md-8 p-sm-0" style="margin: 0 auto !important;">
+            <div class="covid-wrap">
+              <div class="covid-header">
+                <h2 class="progressStatus">Basic Information</h2>
+                <span class="step-count"><span class="current-step">1</span>/<span class="total-step">5</span></span>
+              </div>
+              <form>
+                <div id="step1" class="covid-test-wrap test-step active">
+                  <h3>Welcome!</h3>
+                  <p>Lets get to know each other</p>
+                  <div class="step-block">
+
+                    <div class="row">
+                      <div class="col-sm-12">
+                        <div class="form-group">
+                          <label for="firstName" class="input-label">First Name</label>
+                          <input type="text" name="firstName" class="form-control custom-input" placeholder="Jhon"
+                            required>
+                          <p name="firstNameError" class="input-error" hidden>Please, could provide your first name?</p>
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-12">
+                        <div class="form-group">
+                          <label for="lastName" class="input-label">Last Name</label>
+                          <input type="text" name="lastName" class="form-control" placeholder="Doe" required>
+                          <p name="lastNameError" class="input-error" hidden>Please, could provide your last name?</p>
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-12" style="margin-bottom: 15px;">
+                        <label for="lastName" class="input-label">Gender</label>
+                        <div class="non-stacking-row">
+                          <div class="col-sm-6">
+                            <div class="form-group" style="margin-bottom: 0px;">
+                              <input type="radio" name="selectgender" class="form-control" id="gmale" required>
+                              <label for="gmale">Male</label>
+                            </div>
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="form-group" style="margin-bottom: 0px;">
+                              <input type="radio" name="selectgender" class="form-control" id="gfemale" required>
+                              <label for="gfemale">Female</label>
+                            </div>
+                          </div>
+                        </div>
+                        <p name="selectgenderError" class="input-error" hidden>Please select your gender</p>
+
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-12">
+                        <div class="form-group">
+                          <label for="age" class="input-label">Age</label>
+                          <input type="number" step="1" name="age" class="form-control" placeholder="35" required>
+                          <p name="ageError" class="input-error" hidden>Please, could provide your age?</p>
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row " style="margin-left: 0 !important; margin-bottom: 15px;">
+                      <label class="input-label">Height (feet)</label>
+                      <div class="non-stacking-row">
+                        <div id="feet" class="form-group col-sm-6">
+                          <input type="number" name="feet" class="form-control" placeholder="5" required>
+                        </div>
+                        <div id="inch" class="form-group col-sm-6">
+                          <input type="number" name="inch" class="form-control" placeholder="10">
+                        </div>
+                      </div>
+                      <p name="feetError" class="input-error" hidden>Please, could provide your height?</p>
+
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <label class="input-label" for="weight">Weight (lbs)</label>
+
+                          <input type="text" name="weight" class="form-control" placeholder="180" required>
+                          <p name="weightError" class="input-error" hidden>Please, could provide your weight?</p>
+
+                        </div>
+                      </div>
+                    </div>
+
+                    <a href="#" class="button">Next</a>
+                  </div>
+                </div>
+                <div id="step2" class="covid-test-wrap test-step ">
+                  <h3>Nice to meet you!</h3>
+                  <p>What goals can we help you accomplish?</p>
+
+                  <p class="subhead"
+                    style="margin-top: 15px !important; font-size: 20px; font-weight: 600; color: #111111;">Select all
+                    that apply!</p>
+                  <div class="step-block row" style="margin-top: 5px;">
+                    <div class="form-group">
+                      <input type="checkbox" name="goal1" class="form-control" id="goal1">
+                      <label for="goal1">General healthy eating</label>
+                    </div>
+                    <div class="form-group">
+                      <input type="checkbox" name="goal2" class="form-control" id="goal2">
+                      <label for="goal2">Lose Weight</label>
+                    </div>
+                    <div class="form-group">
+                      <input type="checkbox" name="goal3" class="form-control" id="goal3">
+                      <label for="goal3">Gain Muscle</label>
+                    </div>
+                    <div class="form-group" style="margin-bottom: 0px;">
+                      <input type="checkbox" name="goal4" class="form-control" id="goal4">
+                      <label for="goal4">Eat More Veggies</label>
+                    </div>
+                    <p name="goalError" class="input-error" hidden>Would you please select at least one goal?</p>
+
+                    <a href="#" class="button" style="margin-top: 15px;">Next</a>
+                    <a href="#" class="prev-btn"><img src="assets/images/arrow-left-grey.png" alt="">Previous</a>
+                  </div>
+                </div>
+                <div id="step3" class="covid-test-wrap test-step ">
+                  <h3>Almost done!</h3>
+                  <p>Have you ever been diagnosed with any of the following?</p>
+
+                  <p class="subhead"
+                    style="margin-top: 15px !important; font-size: 20px; font-weight: 600; color: #111111;">Select all
+                    that apply!</p>
+                  <div class="step-block row" style="margin-top: 5px;">
+                    <div class="form-group">
+                      <input type="checkbox" name="health1" class="form-control" id="health1">
+                      <label for="health1">High Cholesterol</label>
+                    </div>
+                    <div class="form-group">
+                      <input type="checkbox" name="health2" class="form-control" id="health2">
+                      <label for="health2">High Blood Pressure</label>
+                    </div>
+                    <div class="form-group">
+                      <input type="checkbox" name="health3" class="form-control" id="health3">
+                      <label for="health3">Prediabetes</label>
+                    </div>
+                    <div class="form-group">
+                      <input type="checkbox" name="health4" class="form-control" id="health4">
+                      <label for="health4">Diabetes type 1</label>
+                    </div>
+                    <div class="form-group">
+                      <input type="checkbox" name="health5" class="form-control" id="health5">
+                      <label for="health5">diabetes type 2</label>
+                    </div>
+                    <div class="form-group" style="margin-bottom: 0px;">
+                      <input type="checkbox" name="health6" class="form-control" id="health6">
+                      <label for="health6">Celiac disease</label>
+                    </div>
+                    <a href="#" class="button" style="margin-top: 15px;">Next</a>
+                    <a href="#" class="prev-btn"><img src="assets/images/arrow-left-grey.png" alt="">Previous</a>
+
+                  </div>
+                </div>
+                <div id="step4" class="covid-test-wrap test-step ">
+                  <h3>Last Page! You Made It!</h3>
+                  <p>You are definitly someone who cares about his health!</p>
+
+                  <p class="subhead"
+                    style="margin-top: 15px !important; font-size: 18px; font-weight: 400; color: #111111;">Do you want
+                    to schedule a one-on-one consultation with a dietitian?</p>
+                  <div class="step-block row" style="margin-top: 5px;">
+                    <div class="form-group">
+                      <input type="radio" name="schedule" class="form-control" id="schedule1">
+                      <label for="schedule1">Yes, please.</label>
+                    </div>
+                    <div class="form-group">
+                      <input type="radio" name="schedule" class="form-control" id="schedule2">
+                      <label for="schedule2">No, thank you.</label>
+                    </div>
+
+                    <p class="subhead"
+                      style="margin-top: 15px !important; font-size: 18px; font-weight: 400; color: #111111;">Do you
+                      want to join our newsletter?</p>
+
+                    <div class="form-group">
+                      <input type="radio" name="newsletter" class="form-control" id="newsletter3">
+                      <label for="newsletter3">Enroll Me In.</label>
+                    </div>
+                    <div class="form-group" style="margin-bottom: 0px;">
+                      <input type="radio" name="newsletter" class="form-control" id="newsletter4">
+                      <label for="newsletter4">I'm not interested to receive premium health tips.</label>
+                    </div>
+                    <p name="goalError" class="input-error" hidden>Would you please select at least one goal?</p>
+
+                    <a href="#" class="button" style="margin-top: 15px;">Next</a>
+                    <a href="#" class="prev-btn"><img src="assets/images/arrow-left-grey.png" alt="">Previous</a>
+
+                  </div>
+                </div>
+                <div id="step5" class="covid-test-wrap test-step ">
+                  <div class="test-progress" style="margin-bottom: 2rem;">
+                    <img src="assets/images/big-green-check.png" class="img-fluid" alt="">
+                  </div>
+                  <h3 style="
+                  margin-bottom: 1rem;
+                  padding: 0px !important;
+                  text-align: center;">Welcome aboard!</h3>
+                  <p>You’re all setup! We’ll reach out soon to schedule your initial consultation. We're eager to meet
+                    you!
+                  </p>
+                  <br>
+                  <br>
+                  <p style="padding: 0 15px;">If you don't find the scheduling email in your inbox, be sure to check
+                    your spam folder. If it's
+                    not
+                    there, feel free to reach out to us at <a
+                      href="emailto:support@mindful-nutrition-counseling.com">support@mindful-nutrition-counseling.com</a>, and we'll make sure
+                    to
+                    get everything sorted out for you. 👍</p>
+                </div>
+            </div>
+
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col" style="display: flex; justify-content: center;">
+          <div class="footer">
+            <div class="footer-social">
+              <a href="https://www.facebook.com/mindful.nutrition.counseling" target="_blank"><i
+                  class="lab la-facebook-f"></i></a>
+              <a href="https://www.instagram.com/mindful.nutrition.counseling" target="_blank"><i
+                  class="lab la-instagram"></i></a>
+              <a href="https://www.linkedin.com/company/mindful-nutrition-counseling/" target="_blank"><i
+                  class="lab la-linkedin-in"></i></a>
+              <a href="https://www.pinterest.com/mindfulnutritioncounseling/" target="_blank"><i
+                  class="lab la-pinterest"></i></a>
+              <a href="https://www.instagram.com/mindful.nutrition.counseling/" target="_blank"><i
+                  class="lab la-instagram"></i></a>
+            </div>
+            <div class="copyright-text">
+              <p>© 2024 Mindful Nutrition Counseling </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+  <script src="assets/js/custom.js"></script>
+</body>
+
+</html>
