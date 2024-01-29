@@ -62,7 +62,7 @@
             <div class="covid-wrap">
               <div class="covid-header">
                 <h2 class="progressStatus">Basic Information</h2>
-                <span class="step-count"><span class="current-step">1</span>/<span class="total-step">5</span></span>
+                <span class="step-count"><span class="current-step">1</span>/<span class="total-step">4</span></span>
               </div>
               <form>
                 <div id="step1" class="covid-test-wrap test-step active">
@@ -122,14 +122,17 @@
                         </div>
                       </div>
                     </div>
-                    <div class="row " style="margin-left: 0 !important; margin-bottom: 15px;">
-                      <label class="input-label">Height (feet)</label>
-                      <div class="non-stacking-row">
-                        <div id="feet" class="form-group col-sm-6">
-                          <input type="number" name="feet" class="form-control" placeholder="5" required>
-                        </div>
-                        <div id="inch" class="form-group col-sm-6">
-                          <input type="number" name="inch" class="form-control" placeholder="10">
+                    <div class="row ">
+                      <label class="input-label" style="margin-left: 8px;">Height (feet)</label>
+                      <div class="col-sm-12" >
+
+                        <div class="non-stacking-row">
+                          <div id="feet" class="form-group col-sm-6">
+                            <input type="number" name="feet" class="form-control" placeholder="5" required>
+                          </div>
+                          <div id="inch" class="form-group col-sm-6">
+                            <input type="number" name="inch" class="form-control" placeholder="10">
+                          </div>
                         </div>
                       </div>
                       <p name="feetError" class="input-error" hidden>Please, could provide your height?</p>
@@ -140,7 +143,7 @@
                         <div class="form-group">
                           <label class="input-label" for="weight">Weight (lbs)</label>
 
-                          <input type="text" name="weight" class="form-control" placeholder="180" required>
+                          <input type="number" name="weight" class="form-control" placeholder="180" required>
                           <p name="weightError" class="input-error" hidden>Please, could provide your weight?</p>
 
                         </div>
@@ -226,27 +229,29 @@
                     to schedule a one-on-one consultation with a dietitian?</p>
                   <div class="step-block row" style="margin-top: 5px;">
                     <div class="form-group">
-                      <input type="radio" name="schedule" class="form-control" id="schedule1">
+                      <input type="radio" name="schedule" class="form-control" id="schedule1" required>
                       <label for="schedule1">Yes, please.</label>
                     </div>
-                    <div class="form-group">
-                      <input type="radio" name="schedule" class="form-control" id="schedule2">
+                    <div class="form-group" style="margin-bottom: 0px;">
+                      <input type="radio" name="schedule" class="form-control" id="schedule2" required>
                       <label for="schedule2">No, thank you.</label>
                     </div>
+                    <p name="scheduleError" class="input-error" hidden>Could you let us know?</p>
+
 
                     <p class="subhead"
                       style="margin-top: 15px !important; font-size: 18px; font-weight: 400; color: #111111;">Do you
                       want to join our newsletter?</p>
 
                     <div class="form-group">
-                      <input type="radio" name="newsletter" class="form-control" id="newsletter3">
+                      <input type="radio" name="newsletter" class="form-control" id="newsletter3" required>
                       <label for="newsletter3">Enroll Me In.</label>
                     </div>
                     <div class="form-group" style="margin-bottom: 0px;">
-                      <input type="radio" name="newsletter" class="form-control" id="newsletter4">
+                      <input type="radio" name="newsletter" class="form-control" id="newsletter4" required>
                       <label for="newsletter4">I'm not interested to receive premium health tips.</label>
                     </div>
-                    <p name="goalError" class="input-error" hidden>Would you please select at least one goal?</p>
+                    <p name="newsletterError" class="input-error" hidden>Could you let us know?</p>
 
                     <a href="#" class="button" style="margin-top: 15px;">Complete!</a>
                     <a href="#" class="prev-btn"><img src="assets/images/arrow-left-grey.png" alt="">Previous</a>
@@ -270,7 +275,8 @@
                     your spam folder. If it's
                     not
                     there, feel free to reach out to us at <a
-                      href="emailto:support@mindful-nutrition-counseling.com">support@mindful-nutrition-counseling.com</a>, and we'll make sure
+                      href="emailto:support@mindful-nutrition-counseling.com">support@mindful-nutrition-counseling.com</a>,
+                    and we'll make sure
                     to
                     get everything sorted out for you. 👍</p>
                 </div>
@@ -290,8 +296,6 @@
             <div class="footer-social">
               <a href="https://www.facebook.com/mindful.nutrition.counseling" target="_blank"><i
                   class="lab la-facebook-f"></i></a>
-              <a href="https://www.instagram.com/mindful.nutrition.counseling" target="_blank"><i
-                  class="lab la-instagram"></i></a>
               <a href="https://www.linkedin.com/company/mindful-nutrition-counseling/" target="_blank"><i
                   class="lab la-linkedin-in"></i></a>
               <a href="https://www.pinterest.com/mindfulnutritioncounseling/" target="_blank"><i
